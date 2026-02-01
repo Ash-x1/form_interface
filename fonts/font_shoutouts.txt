@@ -1,0 +1,14 @@
+1- "SN_Pro" fonts: 
+	- Designed by Tobias Whetton, Supernotes 
+	- Link to the github project "https://github.com/supernotes/sn-pro"
+	- Link to the font "https://fonts.google.com/specimen/SN+Pro"
+
+2- "Pacifico" font:
+	- Designed by Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova 
+	- Link to the github project "https://github.com/googlefonts/Pacifico"
+	- Link to the font "https://fonts.google.com/specimen/Pacifico"
+
+3- "UnifrakturMaguntia" font:
+	- Designed by j. 'mach' wust 
+	- Link to the font "https://fonts.google.com/specimen/UnifrakturMaguntia"
+	
