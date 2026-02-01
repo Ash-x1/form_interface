@@ -1,7 +1,23 @@
+:root {
+    --bg-clr: #F1E9E9;
+    --sec-clr: #982598;
+    --inactive-color: #E491C9;
+    --invalid-clr: #DC143C;
+}
 
 @font-face {
     font-family: logo-font;
     src: url("fonts/UnifrakturMaguntia-Regular.woff2");
+}
+
+@font-face {
+    font-family: form-font;
+    src: url("fonts/SNPro-Regular.woff2");
+}
+
+@font-face {
+    font-family: fancy-font;
+    src: url("fonts/Pacifico-Regular.woff2");
 }
 
 .main {
