@@ -1,5 +1,7 @@
+/*Global configs*/
 :root {
-    --bg-clr: #F1E9E9;
+    --main-bg-clr: #CBCBCB;
+    --sec-bg-clr: #F1E9E9;
     --sec-clr: #982598;
     --inactive-color: #E491C9;
     --invalid-clr: #DC143C;
@@ -20,17 +22,62 @@
     src: url("fonts/Pacifico-Regular.woff2");
 }
 
+/*Main container configs*/
 .main {
     display: flex;
     flex-direction: row;
     height: 90vh;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+/*Form container configs*/
 .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex: 7;
-    background-color: gray;
+    background-color: var(--main-bg-clr);
 }
 
+.form-content {
+    background-color: var(--sec-bg-clr);
+    height: 50%;
+    width: 100%;
+}
+
+h3 {
+    font-family: form-font;
+    font-size: 18px;
+}
+
+.em-custom,
+.sec-em {
+    font-family: fancy-font;
+    font-size: 18px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.first-description {
+    margin-bottom: 8px;
+}
+
+.second-description {
+    margin-top: 8px;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*Image container configs*/
 .image-container {
     flex: 3;
     display: flex;
