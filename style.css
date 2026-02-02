@@ -71,10 +71,49 @@ h3 {
     margin-top: 8px;
 }
 
+legend {
+    font-family: form-font;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 40px;
+}
 
+.left-right {
+    display: flex;
+    flex-direction: row;
+}
 
+.left-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
 
+input {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
 
+label {
+    margin-bottom: 0px;
+}
+
+label,
+input {
+    font-family: form-font;
+    font-size: 12px;
+    color: #37353E;
+}
+
+.right-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
 
 /*-----------------------------------------------------------------------------------------------------*/
 /*Image container configs*/
